@@ -1,0 +1,189 @@
+* 000000 [Engine] Log started at 2023/10/1 22:5:29
+* 000000 [Engine] This copy of the engine is git hash 3fec427f91867f95be0b289303bf1f503522a95c, built on Sep  4 2023, at 04:54:26
+* 000000 [Engine] Platform: Mac OS X
+- 000000 [Engine] Game Dir: /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA//mygame
+- 000000 [Engine] Game ID: com.holophysics.full-circle
+- 000000 [Engine] Game Title: Full Circle
+- 000000 [Engine] Game Version: 0.3
+- 000000 [Engine] Game Package ID: org.holophysics.com.holophysics.full-circle
+- 000000 [Engine] Game Developer ID: holophysics
+- 000000 [Engine] Game Developer Title: Matthew Mayfield
+- 000000 [Engine] Production Build: no
+- 000000 [Engine] Remote Hotload: no
+? 000000 [Engine] Loading cvars from file 'metadata/cvars.txt' ...
+? 000000 [Engine] File 'metadata/cvars.txt' line 1 setting cvar 'log.filter_subsystems' to 'HTTPServer'
+? 000000 [Engine] File 'metadata/cvars.txt' complete
+- 000000 [Render] SDL video backend: cocoa
+- 000000 [Render] SDL renderer backend: metal
+- 000000 [Render] Window size: 1280x720 (requested 1280x720)
+- 000000 [Render] Fullscreen Desktop mode: no
+- 000000 [Render] Allow HighDPI: no
+- 000000 [Render] Max texture size: 16384x16384 (system reported 16384x16384)
+- 000000 [Render] Logical render size: 1280x720
+? 000000 [Engine] RNG seed has been set to 1696215929.
+- 000000 [Engine] Janitor is using 4 threads.
+- 000014 [Game] -> $wizards.ios.start env: :dev
+- 000014 [Game] * INFO: Starting iOS Wizard so we can deploy to your device.
+- 000014 [Game] * INFO: Running step ~:check_for_xcode~.
+- 000015 [Game] * INFO: Running step ~:check_for_xcode~ complete.
+- 000015 [Game] * INFO: Running step ~:check_for_brew~.
+- 000015 [Game] * INFO: Running step ~:check_for_brew~ complete.
+- 000015 [Game] * INFO: Running step ~:check_for_certs~.
+- 000015 [Game] * INFO: Attempting to find certificates on your computer.
+- 000015 [Game] * INFO: I will be using certificate: 'Apple Development: Matthew Mayfield (2M892CCABL)'.
+- 000015 [Game] * INFO: Running step ~:check_for_certs~ complete.
+- 000015 [Game] * INFO: Running step ~:check_for_device~.
+- 000015 [Game] * INFO: Looking for device.
+- 000015 [Game] * INFO: idevice_id -l
+- 000015 [Game] * INFO: afcacac2fe589533f3c9194a79612c7c24664524
+- 000015 [Game] * INFO: idevice_id -l
+- 000015 [Game] * INFO: afcacac2fe589533f3c9194a79612c7c24664524
+- 000015 [Game] * INFO: I will be using device with UUID afcacac2fe589533f3c9194a79612c7c24664524
+- 000015 [Game] * INFO: Running step ~:check_for_device~ complete.
+- 000015 [Game] * INFO: Running step ~:check_for_dev_profile~.
+- 000015 [Game] * INFO: Running step ~:check_for_dev_profile~ complete.
+- 000015 [Game] * INFO: Running step ~:determine_team_identifier~.
+- 000015 [Game] * INFO: Team Identifer is: 2MJ5GUMGAC
+- 000015 [Game] * INFO: Running step ~:determine_team_identifier~ complete.
+- 000015 [Game] * INFO: Running step ~:determine_app_name~.
+- 000015 [Game] * INFO: App name is: Circle.
+- 000015 [Game] * INFO: Running step ~:determine_app_name~ complete.
+- 000015 [Game] * INFO: Running step ~:determine_app_id~.
+- 000015 [Game] * INFO: App Identifier is set to: 2MJ5GUMGAC.com.holophysics.full-circle
+- 000015 [Game] * INFO: Running step ~:determine_app_id~ complete.
+- 000015 [Game] * INFO: Running step ~:determine_devcert~.
+- 000015 [Game] * INFO: Dev Certificate is set to: Apple Development: Matthew Mayfield (2M892CCABL)
+- 000015 [Game] * INFO: Running step ~:determine_devcert~ complete.
+- 000015 [Game] * INFO: Running step ~:clear_tmp_directory~.
+- 000015 [Game] * INFO: rm -rf /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios
+- 000015 [Game] * INFO: Running step ~:clear_tmp_directory~ complete.
+- 000015 [Game] * INFO: Running step ~:stage_ios_app~.
+- 000015 [Game] * INFO: Staging.
+- 000015 [Game] * INFO: mkdir -p /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios
+- 000015 [Game] * INFO: cp -R /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/dragonruby-ios.app/ "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/"
+- 000015 [Game] * INFO: mv "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Runtime" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Circle"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/app/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/app/"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/sounds/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sounds/"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/sprites/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sprites/"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/data/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/data/"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/fonts/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/fonts/"
+- 000015 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/metadata/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata/"
+- 000015 [Game] * INFO: Running step ~:stage_ios_app~ complete.
+- 000015 [Game] * INFO: Running step ~:development_write_info_plist~.
+- 000015 [Game] * INFO: Adding Info.plist.
+- 000015 [Game] * INFO: Running step ~:development_write_info_plist~ complete.
+- 000015 [Game] * INFO: Running step ~:write_entitlements_plist~.
+- 000015 [Game] * INFO: Creating Entitlements.plist
+- 000015 [Game] * INFO: /usr/bin/plutil -convert binary1 "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Entitlements.plist"
+- 000015 [Game] * INFO: /usr/bin/plutil -convert xml1 "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Entitlements.plist"
+- 000015 [Game] * INFO: Running step ~:write_entitlements_plist~ complete.
+- 000015 [Game] * INFO: Running step ~:compile_icons~.
+- 000015 [Game] * INFO: 
+  #+BEGIN:
+  "/Applications/Xcode.app/Contents/Developer/usr/bin/actool" --output-format human-readable-text \
+                                                              --notices --warnings --platform iphoneos \
+                                                              --minimum-deployment-target 10.3 \
+                                                              --target-device iphone \
+                                                              --target-device ipad  --app-icon 'AppIcon' \
+                                                              --output-partial-info-plist '/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AssetCatalog-Info.plist' \
+                                                              --compress-pngs --compile "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app" \
+                                                              "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Assets.xcassets"
+  #+END:
+  
+
+- 000016 [Game] * INFO: 
+  #+BEGIN:
+  /* com.apple.actool.document.notices */
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Assets.xcassets:./AppIcon.appiconset/[][ipad][76x76][][][1x][][][]: notice: 76x76@1x app icons only apply to iPad apps targeting releases of iOS prior to 10.0.
+  /* com.apple.actool.compilation-results */
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon20x20@2x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon20x20@2x~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon20x20@3x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon20x20~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon29x29@2x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon29x29@2x~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon29x29@3x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon29x29~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon40x40@2x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon40x40@2x~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon40x40@3x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon40x40~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon60x60@2x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon60x60@3x.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon76x76@2x~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon76x76~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AppIcon83.5x83.5@2x~ipad.png
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/AssetCatalog-Info.plist
+  /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Assets.car
+  #+END:
+  
+
+- 000016 [Game] * INFO: Running step ~:compile_icons~ complete.
+- 000016 [Game] * INFO: Running step ~:clear_payload_directory~.
+- 000016 [Game] * INFO: rm "Circle".ipa
+- 000016 [Game] * INFO: rm: Circle.ipa: No such file or directory
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/app"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sounds"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sprites"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/data"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/fonts"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata"
+- 000016 [Game] * INFO: Running step ~:clear_payload_directory~ complete.
+- 000016 [Game] * INFO: Running step ~:create_dev_payload_directory~.
+- 000016 [Game] * INFO: cp profiles/development.mobileprovision "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/embedded.mobileprovision"
+- 000016 [Game] * INFO: cp: profiles/development.mobileprovision: No such file or directory
+- 000016 [Game] * INFO: /usr/bin/plutil -convert binary1 "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Info.plist"
+- 000016 [Game] * INFO: rm "Circle".ipa
+- 000016 [Game] * INFO: rm: Circle.ipa: No such file or directory
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/app"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sounds"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sprites"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/data"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/fonts"
+- 000016 [Game] * INFO: rm -rf "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata"
+- 000016 [Game] * INFO: Staging.
+- 000016 [Game] * INFO: mkdir -p /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios
+- 000016 [Game] * INFO: cp -R /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/dragonruby-ios.app/ "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/"
+- 000016 [Game] * INFO: mv "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Runtime" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/Circle"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/app/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/app/"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/sounds/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sounds/"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/sprites/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/sprites/"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/data/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/data/"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/fonts/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/fonts/"
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/mygame/metadata/" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata/"
+- 000016 [Game] * INFO: mkdir -p "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata/"
+- 000016 [Game] * INFO: touch "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app/metadata/DRAGONRUBY_PRODUCTION_BUILD"
+- 000016 [Game] * INFO: Running step ~:create_dev_payload_directory~ complete.
+- 000016 [Game] * INFO: Running step ~:create_payload~.
+- 000016 [Game] * INFO: mkdir -p /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload
+- 000016 [Game] * INFO: cp -r "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.app" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload"
+- 000016 [Game] * INFO: chmod -R 755 "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload"
+- 000016 [Game] * INFO: Running step ~:create_payload~ complete.
+- 000016 [Game] * INFO: Running step ~:code_sign_binary~.
+- 000016 [Game] * INFO: Signing app with Apple Development: Matthew Mayfield (2M892CCABL).
+- 000016 [Game] * INFO: xattr -cr "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app"
+- 000016 [Game] * INFO: CODESIGN_ALLOCATE="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate" /usr/bin/codesign -f -s "Apple Development: Matthew Mayfield (2M892CCABL)" --entitlements /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Entitlements.plist "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app"
+- 000016 [Game] * INFO: /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app: replacing existing signature
+- 000016 [Game] * INFO: xattr -cr "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app/Circle"
+- 000016 [Game] * INFO: CODESIGN_ALLOCATE="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate" /usr/bin/codesign -f -s "Apple Development: Matthew Mayfield (2M892CCABL)" --entitlements /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Entitlements.plist "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app/Circle"
+- 000017 [Game] * INFO: /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/Payload/Circle.app/Circle: replacing existing signature
+- 000017 [Game] * INFO: Running step ~:code_sign_binary~ complete.
+- 000017 [Game] * INFO: Running step ~:create_ipa~.
+- 000017 [Game] * INFO: sh /Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/do_zip.sh
+- 000017 [Game] * INFO: 
+  #+BEGIN:
+  ~/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root ~
+  ~
+  #+END:
+  
+
+- 000017 [Game] * INFO: cp "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/ipa_root/archive.zip" "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.ipa"
+- 000017 [Game] * INFO: Running step ~:create_ipa~ complete.
+- 000017 [Game] * INFO: Running step ~:deploy_to_device~.
+- 000017 [Game] * INFO: ideviceinstaller --uninstall 2MJ5GUMGAC.com.holophysics.full-circle
+- 000017 [Game] * INFO: Could not connect to lockdownd. Exiting.
+- 000017 [Game] * INFO: ideviceinstaller -i "/Users/mayfield/Desktop/Folders/dragonruby/DRApps/FullCircleA/tmp/ios/Circle.ipa"
+- 000017 [Game] * INFO: Could not connect to lockdownd. Exiting.
+- 000017 [Game] * INFO: Check your device!!
+- 000017 [Game] * INFO: Running step ~:deploy_to_device~ complete.
+- 000017 [Game] => nil
